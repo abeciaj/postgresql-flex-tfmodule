@@ -2,7 +2,7 @@ resource "azurerm_postgresql_flexible_server" "flex_server" {
   name                   = "${local.name}-serv-${var.instance_number}"
   resource_group_name    = avar.rg_name
   location               = var.rg_location
-  version                = var.version
+  version                = var.versions
   administrator_login    = var.administrator_login
   administrator_password = var.administrator_password
   storage_mb             = var.storage_mb

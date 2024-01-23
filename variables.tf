@@ -31,7 +31,7 @@ variable "administrator_password" {
   default     = "Default_P@ssw0rd123"
 }
 
-variable "version" {
+variable "versions" {
   type        = string
   description = "DB Version"
   default     = "12"

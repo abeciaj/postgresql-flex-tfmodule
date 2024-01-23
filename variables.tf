@@ -46,7 +46,7 @@ variable "storage_mb" {
 variable "sku_name" {
   type        = string
   description = "Sku Name"
-  default     = "Standard_B1ms"
+  default     = "GP_Standard_D4s_v3"
 }
 
 variable "collation" {
